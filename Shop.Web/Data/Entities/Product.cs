@@ -12,7 +12,7 @@ namespace Shop.Web.Data.Entities
         public string Name { get; set; }
         [DisplayFormat (DataFormatString = "{0:C2}", ApplyFormatInEditMode = false)]
         public decimal Price { get; set; }
-        [Display(Name ="Image")]
+        [Display(Name ="Images")]
         public string ImageUrl { get; set; }
         [Display(Name ="Last Purchase")]
         public DateTime LastPurchase { get; set; }
